@@ -73,6 +73,7 @@ When your Laravel app uses Socialite to handle Google SSO, it needs to:
 ---
 
 ```
+
  "require": {
    
         "floyd0987/laravel-google-sso": "dev-main"
@@ -84,4 +85,11 @@ When your Laravel app uses Socialite to handle Google SSO, it needs to:
             "url": "https://github.com/floyd0987/laravel-google-sso"
         }
     ]
+```
+
+```
+
+<a href="http://localhost/auth/redirect/google">
+  <button>Login with Google</button>
+</a>
 ```
