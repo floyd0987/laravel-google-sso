@@ -1,5 +1,5 @@
 {
-  "name": "yourvendor/laravel-google-sso",
+  "name": "floyd0987/laravel-google-sso",
   "description": "Laravel package for Google SSO using Socialite + Sanctum",
   "type": "library",
   "license": "MIT",
