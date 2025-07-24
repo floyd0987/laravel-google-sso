@@ -1,0 +1,23 @@
+{
+  "name": "yourvendor/laravel-google-sso",
+  "description": "Laravel package for Google SSO using Socialite + Sanctum",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "GoogleSSO\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GoogleSSO\\GoogleSSOServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "laravel/socialite": "^5.8",
+    "laravel/sanctum": "^4.0"
+  }
+}
